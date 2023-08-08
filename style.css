@@ -1,0 +1,173 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+
+/*Global CSS*/
+body{
+    font-family: 'lato',sans-serif;
+    font-size: 16px;
+    color: #999999;
+}
+a{
+        text-decoration:none;
+    }
+    ul{
+        padding:0;
+    }
+    
+
+/* Header section*/
+header{
+    background-color: #f6f9f9;
+    padding:30px 0;
+   
+}
+.logo{
+    width: 165px;
+    
+}
+
+/* Banner section*/
+.banner-section{
+    background:url(image/banner.png) no-repeat center top;
+    background-size:cover;
+    padding: 250px 0 150px;
+}
+.banner-section h1{
+    text-align:center;
+    font-size:130px ;
+    font-weight:700 ;
+    color:#fff ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.title-separator{
+    background:#15a4fa ;
+    height: 2px;
+    width:50% ;
+    margin:0 auto 25px ;
+
+}
+.banner-section p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.banner-section .btn-banner{
+    border: 1px solid #15a4fa;
+    padding: 13px 45px;
+    background:transparent ;
+    color: #fff;
+    font-size: 20px;
+    font-weight:400 ;
+    display:block ;
+    margin: 100px auto 200px;
+    transition: all 0.3s ease-in-out;
+
+}
+.banner-section .btn-banner :hover{
+    background: #15a4fa;
+}
+.banner-section .fa-angle-down{
+    color:#fff ;
+    font-size: 30px;
+    text-align:center ;
+    display: block;
+}
+
+/* About section*/
+.about-section{
+    padding: 75px 0 ;
+    background: #f9f9f9;
+}
+.about-section h2{
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+}
+.about-section p{
+    font-size: 20px;
+    text-align: center;
+    padding: 0 50px;
+}
+/*Feature section*/
+.feature-section{
+    padding: 75px 0;
+    text-align: center;
+}
+.feature-section h3{
+    margin: 15px 0 10px;
+    color:#2d3950 ;
+    font-size: 26px;
+    
+}
+.feature-section p{
+    padding: 0 50px;
+    font-size: 16px;
+}
+/*feature section end*/
+
+/*Gallery Section start*/
+.gallery-section{
+    padding: 75px 0;
+    background: #f6f9f9;
+}
+.gallery-section h2{
+    text-align: center;
+    font-size: 40px;
+    color: #2d3950;
+}
+.gallery-section p{
+    font-size: 16px;
+    text-align: center;
+
+}
+mt-50{
+   margin-top: 50px;
+}
+g-item{
+    position: relative;
+}
+g-image{
+    width: 100%;
+}
+g-hober{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+/*footer section*/
+footer{
+    background:#f6f9f9 ;
+    padding:20px 0 ;
+
+}
+.Social-media{
+    text-align:right ;
+
+}
+.Social-media ul li{
+   list-style: none;
+   display: inline;
+   margin: 0 3px;
+    
+}
+.Social-media ul li a .f-brands{
+    width: 40px;
+    height: 50px;
+    background:#15a4fa ;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+    font-size: 18px;
+    border-radius: 3px;
+
+
+}
